@@ -29,7 +29,9 @@ Vascular lesion
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
+
 - Analysis from the Conclusion 1 :
+
 Accuracy:
 The training and validation accuracy curves both increase over the epochs, reaching around 59.05% for training and 54.59% for validation at the last epoch. This indicates that the model is   learning, but the accuracy levels suggest that there may be room for improvement, possibly due to model capacity, data quality, or other factors. The gap between training and validation accuracy is relatively small, indicating that overfitting might not be a significant issue.
 
@@ -40,6 +42,7 @@ Overfitting/Underfitting:
 Given the small difference between training and validation metrics, there's no strong evidence of overfitting. However, the model might not have learned enough to generalize well, which can be a form of UNDERFITTING. The model’s relatively low accuracy suggests that it could benefit from further tuning, potentially by increasing its complexity, improving data preprocessing, or experimenting with other architectures.
 
 - Analysis from the Conclusion 2 :
+
   Even though Agumented the data with ImageDataGenerator still  the Model is UNDERFITTING because having Train Accuracy 51.02% and Validation Accuracy 47.74%.At its current state, the model is not performing well. Focus on improving the data, model architecture, or training process to boost performance.
    Steps to Improve:
 1. Examine Data:
@@ -50,6 +53,7 @@ Increase Complexity: If the model is underfitting, try a more complex model (e.g
 Longer Training: Train the model for more epochs, but monitor for overfitting.
 
 - Analysis from the Conclusion 3 :
+
   After Handling the Class imbalance by adding the Agumented data, Model was get rid of UNDERFITTING.
   Train Accuracy: 0.9127 (91.27%):
 1. The model performs well on the training data, capturing the majority of patterns.
