@@ -80,16 +80,16 @@ Performance Perspective:
 
 
 ## Technologies Used
-- library - System Version: Windows 10.0.22631
-- library - Python Version: 3.11.5
-- library - Pandas version: 2.2.2
-- library - NumPy version: 1.26.0
-- library - Matplotlib version: 3.9.2
-- library - Seaborn Version: 0.13.2
-- library - pathlib Version: Built-in module, no version
-- library - OS module version: Not applicable (built-in module)
-- library - Pillow (PIL) version: 10.4.0
-- library - Augmentor version: 0.2.12
+- System Version: Windows 10.0.22631
+- Python Version: 3.11.5
+- Pandas version: 2.2.2
+- NumPy version: 1.26.0
+- Matplotlib version: 3.9.2
+- Seaborn Version: 0.13.2
+- pathlib Version: Built-in module, no version
+- OS module version: Not applicable (built-in module)
+- Pillow (PIL) version: 10.4.0
+- Augmentor version: 0.2.12
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
