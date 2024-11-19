@@ -43,8 +43,9 @@ Given the small difference between training and validation metrics, there's no s
 
 - Analysis from the Conclusion 2 :
 
-  Even though Agumented the data with ImageDataGenerator still  the Model is UNDERFITTING because having Train Accuracy 51.02% and Validation Accuracy 47.74%.At its current state, the model is not performing well. Focus on improving the data, model architecture, or training process to boost performance.
-   Steps to Improve:
+Even though Agumented the data with ImageDataGenerator still  the Model is UNDERFITTING because having Train Accuracy 51.02% and Validation Accuracy 47.74%.At its current state, the model is not performing well. Focus on improving the data, model architecture, or training process to boost performance.
+
+Steps to Improve:
 1. Examine Data:
 Class Imbalance: Ensure that the dataset is balanced or use techniques like oversampling/undersampling or class-weight adjustments.
 2. Adjust Model Complexity:
@@ -52,19 +53,23 @@ Increase Complexity: If the model is underfitting, try a more complex model (e.g
 3. Improve Training Process:
 Longer Training: Train the model for more epochs, but monitor for overfitting.
 
+
 - Analysis from the Conclusion 3 :
 
-  After Handling the Class imbalance by adding the Agumented data, Model was get rid of UNDERFITTING.
-  Train Accuracy: 0.9127 (91.27%):
+After Handling the Class imbalance by adding the Agumented data, Model was get rid of UNDERFITTING.
+
+Train Accuracy: 0.9127 (91.27%):
 1. The model performs well on the training data, capturing the majority of patterns.
 2. Train Loss: 0.2576:A relatively low loss value indicates that the model predictions align closely with the actual labels in the training set
 
 Validation Accuracy: 0.9545 (95.45%):
 A higher validation accuracy than training accuracy suggests the model generalizes well to unseen data. This is usually a good sign.
+
 Validation Loss: 0.1422:
 1. The validation loss is significantly lower than the training loss, which can indicate:
 2. The model may generalize better to the validation data.
 3. The validation set might be simpler or less noisy compared to the training data.
+
 Performance Perspective:
 1. The accuracy values are high for both training and validation, suggesting that the model is likely effective for its intended purpose.
 2. The lower validation loss compared to training loss further supports that the model generalizes well to unseen data.
