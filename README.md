@@ -63,6 +63,7 @@ Train Accuracy: 0.9127 (91.27%):
 2. Train Loss: 0.2576:A relatively low loss value indicates that the model predictions align closely with the actual labels in the training set
 
 Validation Accuracy: 0.9545 (95.45%):
+
 A higher validation accuracy than training accuracy suggests the model generalizes well to unseen data. This is usually a good sign.
 
 Validation Loss: 0.1422:
